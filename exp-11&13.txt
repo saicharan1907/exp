@@ -1,0 +1,31 @@
+exp-13
+pyhton -m django --version
+pip install virtualenv
+python -m venv myenv
+dir
+.\myenv\Scripts\activate
+pip list
+pip install Django
+django-admin startproject mywebsite
+cd mywebsite
+python manage.py startapp main
+step1:u have to add 'main' in settings.py in mywebsite
+step2: main/views.py--write the required content
+step3: main/urls.py--write the required content
+step4: mywebsite/urls.py--write the required content
+step5:create folder in main app name it as templates and again create subfolder name it as main inside that create 5 files base,home,services,about,contact.html
+python mange.py runserver
+main---ur app name
+mywebsite---ur project name
+Exp-11
+npx create-react-app my-project
+cd my-project
+code .
+app.js--in src folder write the main logic
+app.css--write some css rules
+src->right cilck->newfolder->home.js,contact.js,about.js
+npm install react-router-dom
+npm start
+
+
+
